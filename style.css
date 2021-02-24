@@ -1,3 +1,10 @@
+body{
+    margin:0px;
+    border:0px;
+    padding:0px;
+    background-color:#212327;
+}
+
 .title
 {
 margin-right:1%;
@@ -5,4 +12,53 @@ color:wheat;
 text-align:center;
 font-size:1.4rem;
 font-family:verdana;
+}
+
+p.intro{
+    color:Azure;
+    font-size:1.3rem;
+    font-style:italic;
+    margin-top:5%;
+    font-family:verdana;
+}
+
+.top{
+    text-align:center;
+    margin-top:6%;
+}
+
+.bottom{
+    clear:both;
+    color:mediumaquamarine;
+    margin-top:20%;
+    font-size:0.8rem;
+    font-family:verdana;
+    text-align:center;
+    color:mediumaquamarine;
+}
+
+.about{
+    color:ghostwhite;
+    font-family:verdana;
+    font-size:1.3rem;
+    margin-top:6%;
+    text-align:center;
+}
+
+.page{
+    color:ivory;
+    text-decoration:none;
+}
+
+.line{
+    color:grey
+}
+
+p.margintop{
+    margin-top:2%
+}
+
+div.margintop{
+    text-align:center;
+    margin-top:3%;
 }
