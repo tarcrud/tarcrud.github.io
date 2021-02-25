@@ -14,8 +14,8 @@ font-family:verdana;
 
 @media only screen and (max-width: 980px) {
     .title {
-        margin-right:1%;
-        font-size:1.2rem;
+        margin-right:1.5%;
+        font-size:1.0rem;
     }
 }
 
@@ -36,7 +36,7 @@ font-family:verdana;
 
 @media only screen and (max-width: 980px) {
     .intro{
-        margin-top:30%;
+        margin-top:16%;
     }
 }
 
@@ -52,7 +52,7 @@ font-family:verdana;
 
 @media only screen and (max-width: 980px) {
     .introbox{
-        margin-top:20%;
+        margin-top:30%;
     }
 }
 
@@ -68,7 +68,7 @@ font-family:verdana;
 @media only screen and (max-width: 980px) {
     .top {
         margin-left:3%;
-        margin-top:5%;
+        margin-top:3%;
     }
 }
 
@@ -90,7 +90,7 @@ font-family:verdana;
 
 @media only screen and (max-width: 980px) {
     .bottom {
-    margin-top:40%;
+    margin-top:43%;
 	margin-bottom:2%;
     }
 }
@@ -140,14 +140,14 @@ font-family:verdana;
 
 @media only screen and (max-width: 980px) {
     .content{
-        margin-top:10%;
+        margin-top:15%;
         margin-bottom:3%;
     }
 }
 
 @media only screen and (min-width: 980px) {
     .content{
-        margin-top:5%;
+        margin-top:8%;
         margin-bottom:1%;
     }
 }
