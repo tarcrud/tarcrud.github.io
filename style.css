@@ -31,8 +31,19 @@ font-family:verdana;
     color:Azure;
     font-size:1.3rem;
     font-style:italic;
-    margin-top:5%;
     font-family:verdana;
+}
+
+@media only screen and (max-width: 980px) {
+    .intro{
+        margin-top:10%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .intro{
+        margin-top:5%;
+    }
 }
 
 .top{
@@ -63,8 +74,8 @@ font-family:verdana;
 
 @media only screen and (max-width: 980px) {
     .bottom {
-    margin-top:10%;
-	margin-bottom:1%;
+    margin-top:25%;
+	margin-bottom:2%;
     }
 }
 
@@ -78,12 +89,35 @@ font-family:verdana;
 .page{
     color:ivory;
     text-decoration:none;
-    margin-top:3%;
+}
+
+@media only screen and (max-width: 980px) {
+    .page{
+        margin-top:5%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .intro{
+        margin-top:3%;
+    }
 }
 
 .pages{
     margin-top:5%;
     text-align:center;
+}
+
+@media only screen and (max-width: 980px) {
+    .pages{
+        margin-top:10%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .intros{
+        margin-top:5%;
+    }
 }
 
 .line{
@@ -120,7 +154,7 @@ font-family:verdana;
 
 @media only screen and (max-width: 980px) {
     .paraTop {
-        margin-top:3%;
+        margin-top:10%;
 		margin-left:3%;
 		margin-right:3%;
     }
