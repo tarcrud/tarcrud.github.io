@@ -7,14 +7,27 @@ body{
 
 .title
 {
-margin-right:1%;
 color:wheat;
 text-align:center;
-font-size:1.4rem;
 font-family:verdana;
 }
 
-p.intro{
+@media only screen and (max-width: 980px) {
+    .title {
+        margin-right:1%;
+        font-size:1.4rem;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .title {
+        margin-right:1%;
+        font-size:1.2rem;
+    }
+}
+
+
+.intro{
     color:Azure;
     font-size:1.3rem;
     font-style:italic;
@@ -23,41 +36,99 @@ p.intro{
 }
 
 .top{
-    margin-left:3%;
-    margin-top:5%;
+}
+
+@media only screen and (max-width: 980px) {
+    .top {
+        margin-left:3%;
+        margin-top:5%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .top {
+        margin-left:5%;
+        margin-top:2%;
+    }
 }
 
 .bottom{
     clear:both;
     color:mediumaquamarine;
-    margin-top:15%;
     font-size:0.8rem;
     font-family:verdana;
     text-align:center;
     color:mediumaquamarine;
 }
 
-.para{
-    color:ghostwhite;
-    font-family:verdana;
-    font-size:1.0rem;
-    text-indent:2%;
+@media only screen and (max-width: 980px) {
+    .bottom {
+    margin-top:10%;
+	margin-bottom:1%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .bottom {
+    margin-top:18%;
+	margin-bottom:1%;
+    }
 }
 
 .page{
     color:ivory;
     text-decoration:none;
+    margin-top:3%;
+}
+
+.pages{
+    margin-top:5%;
+    text-align:center;
 }
 
 .line{
     color:grey
 }
 
-p.margintop{
-    margin-top:2%
+.para{
+    color:ghostWhite;
+    font-family:verdana;
+    font-size:1.0rem;
+    text-indent:2.0rem;
 }
 
-div.margintop{
-    text-align:center;
-    margin-top:3%;
+@media only screen and (max-width: 980px) {
+    .para {
+		margin-left:1%;
+		margin-right:1%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .para {
+		margin-left:10%;
+		margin-right:10%;
+    }
+}
+
+.paraTop{
+    color:ghostWhite;
+    font-family:verdana;
+    font-size:1.0rem;
+    text-indent:2.0rem;
+}
+
+@media only screen and (max-width: 980px) {
+    .paraTop {
+        margin-top:3%;
+		margin-left:1%;
+		margin-right:1%;
+    }
+}
+@media only screen and (min-width: 980px) {
+    .paraTop {
+        margin-top:5%;
+		margin-left:10%;
+		margin-right:10%;
+    }
 }
