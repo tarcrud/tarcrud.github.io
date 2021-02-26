@@ -10,6 +10,8 @@ body{
 color:wheat;
 text-align:center;
 font-family:verdana;
+font-weight:bold;
+text-decoration:none;
 }
 
 @media only screen and (max-width: 980px) {
@@ -107,16 +109,11 @@ font-family:verdana;
     text-decoration:none;
 }
 
-@media only screen and (max-width: 980px) {
-    .page{
-        margin-top:8%;
-    }
-}
-
-@media only screen and (min-width: 980px) {
-    .page{
-        margin-top:4%;
-    }
+.novel{
+    color:ivory;
+    text-decoration:none;
+    font-size:1.2rem;
+    font-weight:bold;
 }
 
 .pagebox{
@@ -132,6 +129,22 @@ font-family:verdana;
 @media only screen and (min-width: 980px) {
     .pagebox{
         margin-top:5%;
+    }
+}
+
+.novelbox{
+    text-align:center;
+}
+
+@media only screen and (max-width: 980px) {
+    .novelbox{
+        margin-top:16%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .novelbox{
+        margin-top:8%;
     }
 }
 
