@@ -193,3 +193,9 @@ text-decoration:none;
         margin-bottom:2%;
     }
 }
+
+.description{
+    color:grey;
+    margin-left:2.0rem;
+    margin-right:2.0rem;
+}
