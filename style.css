@@ -199,3 +199,27 @@ text-decoration:none;
     margin-left:2.0rem;
     margin-right:2.0rem;
 }
+
+.video{
+}
+
+@media only screen and (max-width: 360px) {
+    .video{
+        width:"320";
+        height:"150";
+    }
+}
+
+@media only screen and (min-width: 480px) {
+    .video{
+        width:"640";
+        height:"301";
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .video{
+        width:"1280";
+        height:"602";
+    }
+}
