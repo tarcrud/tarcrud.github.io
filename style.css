@@ -203,23 +203,23 @@ text-decoration:none;
 .video{
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     .video{
-        width:320;
-        height:150;
+        width:320px;
+        height:150px;
     }
 }
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 400px) {
     .video{
-        width:640;
-        height:301;
+        width:640px;
+        height:301px;
     }
 }
 
 @media only screen and (min-width: 980px) {
     .video{
-        width:1280;
-        height:602;
+        width:1280px;
+        height:602px;
     }
 }
