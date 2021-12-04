@@ -132,6 +132,23 @@ text-decoration:none;
     }
 }
 
+.inbox{
+    text-align:center;
+}
+
+@media only screen and (max-width: 980px) {
+    .inbox{
+        margin-top:2%;
+    }
+}
+
+@media only screen and (min-width: 980px) {
+    .inbox{
+        margin-top:1%;
+    }
+}
+
+
 .novelbox{
     text-align:center;
 }
@@ -181,7 +198,7 @@ text-decoration:none;
     .para{
         margin-top:15%;
         margin-left:5%;
-		margin-right:5%;
+        margin-right:5%;
         margin-bottom:5%;
     }
 }
@@ -189,7 +206,32 @@ text-decoration:none;
     .para{
         margin-top:10%;
         margin-left:20%;
-		margin-right:20%;
+        margin-right:20%;
+        margin-bottom:2%;
+    }
+}
+
+.inpara{
+    color:ghostWhite;
+    font-family:verdana;
+    font-size:1.0rem;
+    text-indent:2.0rem;
+    line-height:1.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+    .inpara{
+        margin-top:2%;
+        margin-left:5%;
+        margin-right:5%;
+        margin-bottom:5%;
+    }
+}
+@media only screen and (min-width: 980px) {
+    .inpara{
+        margin-top:1%;
+        margin-left:20%;
+        margin-right:20%;
         margin-bottom:2%;
     }
 }
