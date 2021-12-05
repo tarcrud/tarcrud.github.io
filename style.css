@@ -159,15 +159,15 @@ text-decoration:none;
 
 @media only screen and (max-width: 980px) {
     .img{
-        max-width: 360px;
-        max-height: 240px;
+        max-width: 300px;
+        max-height: 180px;
     }
 }
 
 @media only screen and (min-width: 980px) {
     .img{
        max-width: 800px;
-       max-height: 400px;
+       max-height: 480px;
     }
 }
 
@@ -179,15 +179,15 @@ text-decoration:none;
 
 @media only screen and (max-width: 980px) {
     .img2{
-        max-width: 360px;
-        max-height: 240px;
+        max-width: 300px;
+        max-height: 180px;
     }
 }
 
 @media only screen and (min-width: 980px) {
     .img2{
-       max-width: 500px;
-       max-height: 300px;
+       max-width: 480px;
+       max-height: 288px;
     }
 }
 
