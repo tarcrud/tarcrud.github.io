@@ -123,12 +123,16 @@ text-decoration:none;
 @media only screen and (max-width: 980px) {
     .pagebox{
         margin-top:10%;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 
 @media only screen and (min-width: 980px) {
     .pagebox{
         margin-top:5%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
 }
 
@@ -250,6 +254,32 @@ text-decoration:none;
         margin-top:10%;
         margin-left:20%;
         margin-right:20%;
+        margin-bottom:2%;
+    }
+}
+
+.cover{
+    color:ghostWhite;
+    font-family:verdana;
+    font-size:1.0rem;
+    text-indent:2.0rem;
+    line-height:1.5rem;
+}
+
+@media only screen and (max-width: 980px) {
+    .cover{
+        margin-top:15%;
+        margin-left:6%;
+        margin-right:6%;
+        margin-bottom:5%;
+        text-align:center;
+    }
+}
+@media only screen and (min-width: 980px) {
+    .cover{
+        margin-top:10%;
+        margin-left:25%;
+        margin-right:25%;
         margin-bottom:2%;
     }
 }
