@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEVER.END - Home</title>
+    <!-- 引入 Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body class="bg-[#212327] text-gray-200 font-sans">
+
+    <!-- 1. 顶部导航栏 (始终不变) -->
+    <nav class="fixed top-0 w-full bg-black/50 backdrop-blur-sm z-50  flex justify-center space-x-8 py-4">
+        <!-- 注意：href 改成了 #home, #game 等，或者直接写 javascript:void(0) -->
+        <a href="#"
+            class="text-amber-100 font-bold hover:text-white transition px-3 py-1 border-b-2 border-transparent hover:border-amber-300"
+            onclick="navigate('home')" id="nav-home">Home</a>
+        <a href="#"
+            class="text-amber-100 font-bold hover:text-white transition px-3 py-1 border-b-2 border-transparent hover:border-amber-300"
+            onclick="navigate('game')" id="nav-game">Game</a>
+        <a href="#"
+            class="text-amber-100 font-bold hover:text-white transition px-3 py-1 border-b-2 border-transparent hover:border-amber-300"
+            onclick="navigate('novel')" id="nav-novel">Novel</a>
+        <a href="#"
+            class="text-amber-100 font-bold hover:text-white transition px-3 py-1 border-b-2 border-transparent hover:border-amber-300"
+            onclick="navigate('music')" id="nav-music">Music</a>
+        <a href="#"
+            class="text-amber-100 font-bold hover:text-white transition px-3 py-1 border-b-2 border-transparent hover:border-amber-300"
+            onclick="navigate('video')" id="nav-video">Video</a>
+        <a href="#"
+            class="text-amber-100 font-bold hover:text-white transition px-3 py-1 border-b-2 border-transparent hover:border-amber-300"
+            onclick="navigate('about')" id="nav-about">About</a>
+
+    </nav>
+
+
+    <!-- 主内容区 (增加内边距避免被导航遮挡) -->
+    <main class="pt-24 pb-12 px-4 max-w-6xl mx-auto">
+        <section id="home" class="page-section">
+            <!-- 游戏介绍卡片 -->
+            <div class="bg-black/30 rounded-xl p-8 mb-12 backdrop-blur-sm border border-amber-800/30">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                    <div class="w-full md:w-64 rounded-lg shadow-lg">
+                        <video class="video" controls>
+                            <source src="src/video/tap promote.mp4" type="video/mp4">
+                            <object data="src/video/tap promote.mp4" class="video">
+                            </object>
+                        </video>
+                    </div>
+
+
+                    <div class="text-center md:text-left">
+                        <h1 class="text-3xl font-bold text-amber-100 mb-2">Night Of Party</h1>
+                        <p class="text-lg text-gray-400 mb-2">Multiplayer Strategy Game</p>
+                        <p class="text-sm text-gray-500 mb-4">Released on Android 2/4/2026</p>
+                        <div class="flex flex-wrap justify-center md:justify-start gap-4">
+                            <a href="src/game/NOP.apk"
+                                class="bg-green-600 hover:bg-green-700 px-6 py-2 rounded transition">DOWNLOAD FOR
+                                FREE</a>
+                            <a href="privacy.html"
+                                class="bg-orange-600 hover:bg-orange-700 px-6 py-2 rounded transition">Privacy
+                                Policy</a>
+                        </div>
+                        <div class="prose prose-invert max-w-none text-justify mt-4">
+                            <p>Night of party is is a role-playing game based on communication and strategy,
+                                incorporating
+                                multiple character factions and unique skills, supporting single-player mode and online
+                                multiplayer. </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-2xl font-bold mb-4 text-white">GameScreens</h3>
+            <!-- 游戏截图展示 (网格布局) -->
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+
+                <!-- 卡片 1 -->
+                <!-- 修改：给外层 div 加上 h-64 来限制高度 -->
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/0.png" alt="Promotion" class="max-h-64 object-contain">
+                </div>
+
+                <!-- 卡片 2 -->
+                <!-- 修改：修复了 class 拼写错误（之前漏了 class=），并加上高度限制 -->
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/1.png" alt="Screenshot 1" class="max-h-64 object-contain">
+                </div>
+
+                <!-- 卡片 3 -->
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/2.png" alt="Screenshot 2" class="max-h-64 object-contain">
+                </div>
+
+                <!-- 卡片 4 -->
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/3.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/4.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/5.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/6.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/7.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/8.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/9.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/10.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/11.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/12.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/13.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+                <div class="h-64 overflow-hidden rounded-lg bg-gray-800 flex items-center justify-center">
+                    <img src="src/images/14.png" alt="Screenshot 3" class="max-h-64 object-contain">
+                </div>
+
+            </div>
+        </section>
+        <!-- 游戏板块 -->
+        <section id="game" class="page-section" style="display: none;">
+            <h1>Game Page Content</h1>
+            <p>这里放游戏介绍、下载链接等...</p>
+        </section>
+
+        <!-- 小说板块 -->
+        <section id="novel" class="page-section" style="display: none;">
+            <h1>Novel Page Content</h1>
+            <p>这里放小说列表...</p>
+        </section>
+
+        <!-- 其他板块同理... -->
+        <section id="music" class="page-section" style="display: none;">
+            <h1>Music Page Content</h1>
+        </section>
+
+        <section id="video" class="page-section" style="display: none;">
+            <h1>Video Page Content</h1>
+        </section>
+
+        <section id="about" class="page-section" style="display: none;">
+            <h1>About Page Content</h1>
+        </section>
+    </main>
+
+    <!-- 页脚 -->
+    <footer class="border-t border-gray-800 text-center py-6 text-sm text-gray-500">
+        Copyright © tarcrud.com
+    </footer>
+
+    <script>
+        // 1. 定义翻译字典
+        const i18n = {
+            "Home": "首页",
+            "Game": "游戏",
+            "Novel": "小说",
+            "Music": "音乐",
+            "Video": "视频",
+            "About": "关于",
+            "Night Of Party":"派对之夜",
+            "Multiplayer Strategy Game": "多人策略游戏",
+            "DOWNLOAD FOR FREE": "免费下载",
+            "Privacy Policy": "隐私政策",
+            "Night of party is is a role-playing game based on communication and strategy, incorporating multiple character factions and unique skills, supporting single-player mode and online multiplayer.": "《派对之夜》是一款基于沟通与策略的角色扮演游戏，融合了多种角色阵营和独特技能，支持单人模式和联机对战",
+            "GameScreens": "游戏截图",
+            "Released on Android 2/4/2026": "Android版本发布于 2026年4月2日"
+        };
+
+        // 2. 定义切换函数 (这就是你在控制台调用的那个函数)
+        function switchLanguage(lang) {
+            // 遍历字典，找到页面上所有对应的文本并替换
+            for (const [en, zh] of Object.entries(i18n)) {
+                // 查找页面中包含英文文本的元素
+                // 注意：这是一个简化的查找逻辑，实际项目中建议用 data-i18n 属性
+                const elements = document.body.getElementsByTagName('*');
+                for (let el of elements) {
+                    // 如果元素里的文本完全匹配英文
+                    if (el.innerText === en) {
+                        el.innerText = lang === 'zh-CN' ? zh : en;
+                    }
+                }
+            }
+            console.log("语言已切换为:", lang);
+        }
+        function navigate(pageId) {
+            // 1. 获取所有 class 为 'page-section' 的元素
+            const sections = document.querySelectorAll('.page-section');
+
+            // 2. 遍历它们，全部隐藏 (display: none)
+            sections.forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // 3. 只显示点击的那个板块 (display: block)
+            const activeSection = document.getElementById(pageId);
+            if (activeSection) {
+                activeSection.style.display = 'block';
+            }
+
+            // 4. (可选) 处理导航栏的高亮状态
+            // 比如给当前点击的链接加个 active 类，其他的去掉
+        }
+
+        // 页面加载完成后，默认显示首页
+        document.addEventListener('DOMContentLoaded', () => {
+            navigate('home');
+        });
+
+        // 3. 页面加载完成后自动检测
+        document.addEventListener('DOMContentLoaded', () => {
+            const userLang = navigator.language || navigator.userLanguage;
+            console.log("检测到浏览器语言:", userLang);
+
+            // 如果包含 'zh' (中文)，则自动切换
+            if (userLang.includes('zh')) {
+                switchLanguage('zh-CN');
+            }
+        });
+    </script>
+</body>
+
+</html>
